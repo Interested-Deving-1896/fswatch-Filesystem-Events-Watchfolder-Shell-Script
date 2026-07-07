@@ -1,21 +1,75 @@
-# fswatch Filesystem Events WatchFolder Shell Script
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# fswatch-Filesystem-Events-Watchfolder-Shell-Script
 
-** A "file-system events" script built to avoid scanning a folder
-Using operating system specific filesystem events it also monitors for "growing files" before triggering an action**
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/fswatch-Filesystem-Events-Watchfolder-Shell-Script)
 
-It looks for to the event names "Updated", "Renamed", "MovedTo" so files don't trigger until ready.
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-"Renamed" event accepts file moves into the watch folder
+## Architecture
 
-"Updated" accepts a “file-closed” event after a file copy into the watch folder occurs
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-"MovedTo" event is operating system specific to Linux and identifies file moves into the watchfolder
+## Install
 
-If a file is removed from the watch folder, the script checks for this
-false event by examining the folder for the same file.  If the file doesn’t exist,
-the event is ignored.
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-** If you are using MacOS, there is "Notification Center" support for files added to the watchfolder and files that have completed their transfer to the final destination **
+```bash
+git clone https://github.com/Interested-Deving-1896/fswatch-Filesystem-Events-Watchfolder-Shell-Script.git
+cd fswatch-Filesystem-Events-Watchfolder-Shell-Script
+```
 
+## Usage
 
-** MUST CONFIGURE LINES WITHIN CONFIGURATION SECTION **
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/fswatch-Filesystem-Events-Watchfolder-Shell-Script`](https://github.com/Interested-Deving-1896/fswatch-Filesystem-Events-Watchfolder-Shell-Script) and mirrored through:
+
+```
+Interested-Deving-1896/fswatch-Filesystem-Events-Watchfolder-Shell-Script  ──►  OpenOS-Project-OSP/fswatch-Filesystem-Events-Watchfolder-Shell-Script  ──►  OpenOS-Project-Ecosystem-OOC/fswatch-Filesystem-Events-Watchfolder-Shell-Script
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
